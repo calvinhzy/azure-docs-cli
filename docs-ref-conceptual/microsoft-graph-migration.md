@@ -63,6 +63,9 @@ Command argument and behavior breaking changes are listed below.
 
 - Remove `--additional-properties`
 
+### `az ad group member list`
+- Currently service principals are not listed as group members due to staged roll-out of service principals on Graph V1.0 endpoint. (https://docs.microsoft.com/en-us/graph/api/group-list-members?view=graph-rest-1.0&tabs=http)
+
 ## Known issues
 
 - Generic update arguments `--add`, `--set` and `--remove` currently don't work
